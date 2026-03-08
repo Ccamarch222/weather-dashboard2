@@ -10,12 +10,12 @@ export default function Home() {
   const { weatherState, recentCities, search, reset } = useWeather();
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-200 px-4 py-16">
-      <div className="mx-auto flex max-w-lg flex-col items-center gap-6">
+    <main className="min-h-screen w-full bg-gradient-to-b from-slate-100 to-slate-200">
+      <div className="mx-auto flex w-full max-w-lg flex-col items-center gap-4 px-4 py-8 md:py-16">
         
         {/* ─── Header ─── */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-slate-800">
+        <div className="text-center w-full px-2">
+          <h1 className="text-2xl font-bold text-slate-800 sm:text-3xl md:text-4xl">
             🌤️ Weather Dashboard
           </h1>
           <p className="mt-2 text-slate-500 text-sm">

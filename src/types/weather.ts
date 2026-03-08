@@ -1,4 +1,4 @@
-type WeatherCodntion = 'Clear' | 'Rain' | 'Clouds' | 'Snow' | 'Thunderstorm';
+type WeatherCodntion = string;
 
 export interface WeatherData {
     readonly city: string;
